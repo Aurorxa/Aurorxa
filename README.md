@@ -12,7 +12,7 @@
 <h2>学习路线</h2>
 <div>
   <a href="https://roadmap.sh">
-    <img src="https://roadmap.sh/card/tall/665e6384b998f3b3c7848f5d?variant=light" alt="学习路线" style="zoom:100%;" height="300"/>
+    <img src="https://roadmap.sh/card/tall/665e6384b998f3b3c7848f5d?variant=light" alt="学习路线" style="zoom:100%;" height="350"/>
   </a>
 </div>
 
