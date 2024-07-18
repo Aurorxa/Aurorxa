@@ -3,12 +3,6 @@
 
 <br>
 
-<div>
-  <a href="https://github.com/Aurorxa">
-    <img src="https://github-readme-stats.vercel.app/api?username=Aurorxa&show_icons=true&count_private=true&theme=vue-light&hide_border=true" alt="Aurorxa's GitHub stats" style="zoom:100%;"/>
-  </a>
-</div>
-
 <h2>学习路线</h2>
 <div>
   <a href="https://roadmap.sh">
