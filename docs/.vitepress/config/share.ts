@@ -16,7 +16,7 @@ export const sharedConfig = defineConfig({
   lang: 'zh-CN', // 语言
   title: "文档中心", // 站点名称
   titleTemplate: "Hi，终于等到你", // 网页标题
-  description: "tag、touchair", // 站点描述
+  description: "许大仙", // 站点描述
   head: [ // favicon.ico 图标等
     ['link', { rel: "shortcut icon", href: `${VITE_BASE_URL || '/'}logo.svg` }],
     // 网站 favicon.ico 图标
@@ -28,7 +28,7 @@ export const sharedConfig = defineConfig({
     // 网页视口
     ['meta', { name: "viewport", content: "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,shrink-to-fit=no" }],
     // 关键词和描述
-    ['meta', { name: "keywords", content: "tag,touchair" }],
+    ['meta', { name: "keywords", content: "许大仙" }],
   ],
   appearance: true, // 主题模式，默认浅色且开启切换
   base: VITE_BASE_URL,

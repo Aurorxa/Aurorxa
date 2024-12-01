@@ -15,3 +15,7 @@ import { NAV_DATA } from '../zh/utils/data.ts'
 # 我的导航
 
 <NavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+
+---
+
+<confetti />
