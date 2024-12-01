@@ -66,8 +66,8 @@ export const NAV_DATA: NavData[] = [
           text: 'Linux',
           type: 'tip',
         },
-        desc: '云原生是一种基于云计算的架构理念，通过容器、微服务、DevOps 和动态编排技术（如 Kubernetes）构建可扩展、高效和弹性的应用系统。',
-        link: 'https://java.weiweixu.cn/'
+        desc: '云原生是一种基于云计算的架构理念，通过容器、微服务、DevOps 和动态编排技术（如：Kubernetes）构建可扩展、高效和弹性的应用系统。',
+        link: 'https://linux.weiweixu.cn/'
       },
       {
         icon: '/go/logo.svg',
