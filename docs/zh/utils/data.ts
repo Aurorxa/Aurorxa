@@ -96,7 +96,7 @@ export const NAV_DATA: NavData[] = [
           text: '数据库',
           type: 'tip',
         },
-        desc: '数据库是用于存储、管理和检索数据的系统，可分为关系型（如 MySQL、PostgreSQL）和非关系型（如 MongoDB、Redis），广泛用于应用开发和数据处理。',
+        desc: '数据库是用于存储、管理和检索数据的系统，可分为关系型（MySQL、PostgreSQL 等）和非关系型（MongoDB、Redis 等），广泛用于应用开发和数据处理。',
         link: 'https://db.weiweixu.cn/'
       },
     ]
