@@ -1,4 +1,4 @@
-.nav-layout {
+.m-nav-layout {
     /* 覆盖全局的 vp-layout-max-width（仅当前页面使用） */
     --vp-layout-max-width: 1660px;
   
@@ -35,15 +35,3 @@
       margin-top: 24px;
     }
   }
-
-.medium-zoom-overlay {
-  z-index: 0;
-}
-  
-.medium-zoom-image {
-  z-index: 0 !important;
-}
-
-.vp-doc a {
-    text-decoration: none;
-}

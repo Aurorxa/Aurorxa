@@ -1,4 +1,4 @@
 ---
 layout: doc
-layoutClass: nav-layout
+layoutClass: m-nav-layout
 ---

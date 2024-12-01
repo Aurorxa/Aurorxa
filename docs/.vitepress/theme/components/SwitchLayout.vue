@@ -8,7 +8,6 @@
 
 <script setup lang="ts">
 import Backtotop from "./BackTop.vue";
-import ArticleMetadata from "./ArticleMetadata.vue";
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { nextTick, provide, computed } from "vue";
