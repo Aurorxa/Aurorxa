@@ -66,7 +66,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Linux',
           type: 'tip',
         },
-        desc: 'Linux 是一种开源、高稳定性的操作系统，广泛用于服务器、桌面和嵌入式设备，核心是 Linux 内核。',
+        desc: '云原生是一种基于云计算的架构理念，通过容器、微服务、DevOps 和动态编排技术（如 Kubernetes）构建可扩展、高效和弹性的应用系统。',
         link: 'https://java.weiweixu.cn/'
       },
       {
