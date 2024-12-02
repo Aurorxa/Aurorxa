@@ -95,7 +95,7 @@ export const NAV_DATA: NavData[] = [
     title: '数据库',
     items: [
       {
-        icon: `/db/mysql/logo.svg`,
+        icon: `/middleware/db/mysql/logo.svg`,
         title: 'MySQL',
         badge: {
           text: 'MySQL',
@@ -105,7 +105,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://mysql.weiweixu.cn/'
       },
       {
-        icon: `/db/redis/logo.svg`,
+        icon: `/middleware/db/redis/logo.svg`,
         title: 'Redis',
         badge: {
           text: 'Redis',
@@ -117,10 +117,10 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '中间件',
+    title: '消息中间件',
     items: [
       {
-        icon: `/middleware/rabbitmq/logo.svg`,
+        icon: `/middleware/message/rabbitmq/logo.svg`,
         title: 'RabbitMQ',
         badge: {
           text: 'RabbitMQ',
@@ -129,6 +129,31 @@ export const NAV_DATA: NavData[] = [
         desc: 'RabbitMQ 是一个开源消息队列系统，支持多种消息协议，常用于异步通信和分布式系统。',
         link: 'https://rabbit.weiweixu.cn/'
       },
+      {
+        icon: `/middleware/message/kafka/logo.svg`,
+        title: 'Kafka',
+        badge: {
+          text: 'Kafka',
+          type: 'tip',
+        },
+        desc: 'Kafka 是分布式消息队列系统，擅长处理高吞吐的实时数据流，用于日志收集、事件流处理等场景。',
+        link: 'https://kafka.weiweixu.cn/'
+      },
+    ]
+  },
+  {
+    title: '搜索引擎',
+    items: [
+      {
+        icon: `/middleware/search/es/logo.svg`,
+        title: 'ElasticSearch',
+        badge: {
+          text: 'ElasticSearch',
+          type: 'tip',
+        },
+        desc: 'Elasticsearch 是分布式搜索和分析引擎，支持全文检索、实时分析，常用于日志管理和数据查询。',
+        link: 'https://es.weiweixu.cn/'
+      }
     ]
   },
 ]
