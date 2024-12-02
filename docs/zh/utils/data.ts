@@ -46,7 +46,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Hadoop、Flink、Spark',
           type: 'tip',
         },
-        desc: '处理和分析海量、多样、高速增长的数据集,以提取有价值的信息，常用于决策支持和预测分析。',
+        desc: '处理和分析海量、多样、高速增长的数据集，以提取有价值的信息，常用于决策支持和预测分析。',
         link: 'https://big-data.weiweixu.cn/'
       },
       {
@@ -56,7 +56,7 @@ export const NAV_DATA: NavData[] = [
           text: 'HTML、CSS、JavaScript',
           type: 'tip',
         },
-        desc: '构建网页或应用用户界面的过程，涉及HTML、CSS和JavaScript等技术，重点在于设计和优化用户体验。',
+        desc: '构建网页或应用用户界面的过程，涉及 HTML 、CSS 和 JavaScript 等技术，重点在于设计和优化用户体验。',
         link: 'https://web-design.weiweixu.cn/'
       },
       {
@@ -86,7 +86,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Python',
           type: 'tip',
         },
-        desc: 'Python 是一种简洁易用的高级编程语言，支持多种编程范式，广泛应用于数据分析、人工智能、Web开发和自动化等领域。',
+        desc: 'Python 是一种简洁易用的高级编程语言，支持多种编程范式，广泛应用于数据分析、人工智能、 Web 开发和自动化等领域。',
         link: 'https://python.weiweixu.cn/'
       },
       {
