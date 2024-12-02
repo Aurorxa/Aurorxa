@@ -1,6 +1,6 @@
 <template>
   <DefaultTheme.Layout :class="layoutClass">
-    <template #doc-footer-before>
+    <template #doc-after>
       <Backtotop />
     </template>
   </DefaultTheme.Layout>
