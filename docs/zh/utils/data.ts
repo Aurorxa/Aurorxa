@@ -20,7 +20,7 @@ export const NAV_DATA: NavData[] = [
     title: '编程语言',
     items: [
       {
-        icon: `/c/logo.svg`,
+        icon: `/PL/c/logo.svg`,
         title: 'C/C++',
         badge: {
           text: 'C/C++',
@@ -30,7 +30,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://c.weiweixu.cn/'
       },
       {
-        icon: '/java/logo.svg',
+        icon: '/PL/java/logo.svg',
         title: 'Java',
         badge: {
           text: 'Java',
@@ -40,7 +40,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://java.weiweixu.cn/'
       },
       {
-        icon: '/big-data/logo.svg',
+        icon: '/PL/big-data/logo.svg',
         title: '大数据',
         badge: {
           text: 'Hadoop、Flink、Spark',
@@ -50,7 +50,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://big-data.weiweixu.cn/'
       },
       {
-        icon: '/web-design/logo.svg',
+        icon: '/PL/web-design/logo.svg',
         title: '前端',
         badge: {
           text: 'HTML、CSS、JavaScript',
@@ -60,7 +60,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://web-design.weiweixu.cn/'
       },
       {
-        icon: '/linux/logo.svg',
+        icon: '/PL/linux/logo.svg',
         title: '云原生',
         badge: {
           text: 'Linux',
@@ -70,7 +70,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://linux.weiweixu.cn/'
       },
       {
-        icon: '/go/logo.svg',
+        icon: '/PL/go/logo.svg',
         title: 'Go',
         badge: {
           text: 'Go',
@@ -80,7 +80,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://go.weiweixu.cn/'
       },
       {
-        icon: '/python/logo.svg',
+        icon: '/PL/python/logo.svg',
         title: 'Python',
         badge: {
           text: 'Python',
@@ -89,17 +89,46 @@ export const NAV_DATA: NavData[] = [
         desc: 'Python 是一种简洁易用的高级编程语言，支持多种编程范式，广泛应用于数据分析、人工智能、 Web 开发和自动化等领域。',
         link: 'https://python.weiweixu.cn/'
       },
+    ]
+  },
+  {
+    title: '数据库',
+    items: [
       {
-        icon: '/db/logo.svg',
-        title: '数据库',
+        icon: `/db/mysql/logo.svg`,
+        title: 'MySQL',
         badge: {
-          text: '数据库',
+          text: 'MySQL',
           type: 'tip',
         },
-        desc: '数据库是用于存储、管理和检索数据的系统，可分为关系型（MySQL、PostgreSQL 等）和非关系型（MongoDB、Redis 等），广泛用于应用开发和数据处理。',
-        link: 'https://db.weiweixu.cn/'
+        desc: 'MySQL 是开源关系型数据库，性能高，支持SQL查询，广泛用于应用开发和数据管理。',
+        link: 'https://mysql.weiweixu.cn/'
+      },
+      {
+        icon: `/db/redis/logo.svg`,
+        title: 'Redis',
+        badge: {
+          text: 'Redis',
+          type: 'tip',
+        },
+        desc: 'Redis 是高性能的开源内存数据库，支持多种数据结构，常用于缓存、队列和实时数据处理。',
+        link: 'https://redis.weiweixu.cn/'
       },
     ]
   },
-  
+  {
+    title: '中间件',
+    items: [
+      {
+        icon: `/middleware/rabbitmq/logo.svg`,
+        title: 'RabbitMQ',
+        badge: {
+          text: 'RabbitMQ',
+          type: 'tip',
+        },
+        desc: 'RabbitMQ 是一个开源消息队列系统，支持多种消息协议，常用于异步通信和分布式系统。',
+        link: 'https://rabbit.weiweixu.cn/'
+      },
+    ]
+  },
 ]
