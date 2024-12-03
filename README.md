@@ -1,8 +1,6 @@
 - 👋 Hey, I’m 许大仙
 - 📫 Email: 1900919313@qq.com
 
-<br>
-
 <h2>技术栈</h2>
 <p align="center">
   <a href="https://skillicons.dev">
