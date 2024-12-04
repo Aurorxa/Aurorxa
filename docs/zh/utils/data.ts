@@ -200,7 +200,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://nsq.weiweixu.cn/'
       },
       {
-        icon: `/middleware/message/emqx/logo.png`,
+        icon: `/middleware/message/emqx/logo.svg`,
         title: 'EMQX',
         badge: {
           text: 'EMQX',
