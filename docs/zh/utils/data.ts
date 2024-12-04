@@ -199,6 +199,16 @@ export const NAV_DATA: NavData[] = [
         desc: '实时分布式消息平台，设计简单，易于部署和运维，适用于实时消息处理。',
         link: 'https://nsq.weiweixu.cn/'
       },
+      {
+        icon: `/middleware/message/emqx/logo.png`,
+        title: 'EMQX',
+        badge: {
+          text: 'EMQX',
+          type: 'tip',
+        },
+        desc: '高性能、开源的分布式 MQTT 消息中间件，支持多种协议，广泛应用于物联网、车联网和实时消息系统。',
+        link: 'https://emqx.weiweixu.cn/'
+      },
     ]
   },
   {
