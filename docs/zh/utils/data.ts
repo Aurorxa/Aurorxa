@@ -107,7 +107,7 @@ export const NAV_DATA: NavData[] = [
           type: 'tip',
         },
         desc: 'Rust 是一门注重安全性和性能的系统编程语言，通过独特的所有权机制实现内存安全，适用于高性能和并发应用开发。',
-        link: 'https://rsut.weiweixu.cn/'
+        link: 'https://rust.weiweixu.cn/'
       },
     ]
   },
