@@ -75,6 +75,9 @@ const formatBadge = computed(() => {
   height: 100%;
   background-color: var(--vp-c-bg-soft);
   transition: all 0.25s;
+
+  box-shadow: 5px 5px 10px #0000004d;
+
   &:hover {
     box-shadow: var(--vp-shadow-2);
     border-color: var(--vp-c-brand); //悬停边框色
