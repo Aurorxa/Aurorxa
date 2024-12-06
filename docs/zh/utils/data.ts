@@ -12,7 +12,7 @@ export const NAV_DATA: NavData[] = [
           type: 'tip',
         },
         desc: '计算机的发展史、二进制、指令和程序、数据结构与算法、人工智能、计算机视觉、自然语言处理等。',
-        link: 'https://computer-science.weiweixu.cn/'
+        link: 'https://cs.weiweixu.cn/'
       },
       {
         icon: `/coa6/logo.svg`,
