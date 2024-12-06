@@ -66,7 +66,7 @@ export const NAV_DATA: NavData[] = [
           text: 'HTML、CSS、JavaScript',
           type: 'tip',
         },
-        desc: '构建网页或应用用户界面的过程，涉及 HTML 、CSS 和 JavaScript 等技术，重点在于设计和优化用户体验。',
+        desc: '构建网页或应用用户界面，涉及 HTML 、CSS 和 JavaScript 等技术，重点在于设计和优化用户体验。',
         link: 'https://web-design.weiweixu.cn/'
       },
       {
