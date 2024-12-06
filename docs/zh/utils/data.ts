@@ -5,7 +5,7 @@ export const NAV_DATA: NavData[] = [
     title: '计算机基础',
     items: [
       {
-        icon: `/computer-science/logo.svg`,
+        icon: `/cs/logo.svg`,
         title: '计算机科学',
         badge: {
           text: '计算机科学',
