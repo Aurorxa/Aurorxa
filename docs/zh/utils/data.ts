@@ -96,7 +96,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Python',
           type: 'tip',
         },
-        desc: 'Python 是一种简洁易用的高级编程语言，支持多种编程范式，广泛应用于数据分析、人工智能、 Web 开发和自动化等领域。',
+        desc: 'Python 是一种简洁易用的高级编程语言，支持多种编程范式，广泛应用于人工智能、 Web 开发和自动化等领域。',
         link: 'https://python.weiweixu.cn/'
       },
       {
