@@ -212,7 +212,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: 'ECK',
+    title: 'Elastic Stack 全家桶',
     items: [
       {
         icon: `/middleware/search/es/logo.svg`,
