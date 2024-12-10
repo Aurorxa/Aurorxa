@@ -223,6 +223,36 @@ export const NAV_DATA: NavData[] = [
         },
         desc: 'Elasticsearch 是分布式搜索和分析引擎，支持全文检索、实时分析，常用于日志管理和数据查询。',
         link: 'https://es.weiweixu.cn/'
+      },
+      {
+        icon: `/esk/logstash/logo.svg`,
+        title: 'Logstash',
+        badge: {
+          text: 'Logstash',
+          type: 'tip',
+        },
+        desc: '',
+        link: 'https://logstash.weiweixu.cn/'
+      },
+      {
+        icon: `/esk/es/logo.svg`,
+        title: 'Kibana',
+        badge: {
+          text: 'Kibana',
+          type: 'tip',
+        },
+        desc: '',
+        link: 'https://kibana.weiweixu.cn/'
+      },
+      {
+        icon: `/esk/es/logo.svg`,
+        title: 'Beats',
+        badge: {
+          text: 'Beats',
+          type: 'tip',
+        },
+        desc: 'Elasticsearch 是分布式搜索和分析引擎，支持全文检索、实时分析，常用于日志管理和数据查询。',
+        link: 'https://beats.weiweixu.cn/'
       }
     ]
   },
