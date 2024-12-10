@@ -245,7 +245,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://kibana.weiweixu.cn/'
       },
       {
-        icon: `/esk/es/logo.svg`,
+        icon: `/esk/beats/logo.svg`,
         title: 'Beats',
         badge: {
           text: 'Beats',
