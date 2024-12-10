@@ -212,7 +212,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '搜索引擎',
+    title: 'ECK',
     items: [
       {
         icon: `/middleware/search/es/logo.svg`,
