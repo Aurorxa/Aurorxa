@@ -235,7 +235,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://logstash.weiweixu.cn/'
       },
       {
-        icon: `/esk/es/logo.svg`,
+        icon: `/esk/kibana/logo.svg`,
         title: 'Kibana',
         badge: {
           text: 'Kibana',
