@@ -231,7 +231,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Logstash',
           type: 'tip',
         },
-        desc: '',
+        desc: '数据收集、处理和转发工具，将数据从不同来源传输到 Elasticsearch。',
         link: 'https://logstash.weiweixu.cn/'
       },
       {
@@ -241,7 +241,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Kibana',
           type: 'tip',
         },
-        desc: '',
+        desc: '数据可视化工具，用于展示和分析 Elasticsearch 中的数据。',
         link: 'https://kibana.weiweixu.cn/'
       },
       {
@@ -251,7 +251,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Beats',
           type: 'tip',
         },
-        desc: 'Elasticsearch 是分布式搜索和分析引擎，支持全文检索、实时分析，常用于日志管理和数据查询。',
+        desc: '轻量级数据采集工具，用于从各类设备收集数据并发送到 Logstash 或 Elasticsearch。',
         link: 'https://beats.weiweixu.cn/'
       }
     ]
