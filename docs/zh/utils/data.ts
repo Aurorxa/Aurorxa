@@ -118,10 +118,10 @@ export const NAV_DATA: NavData[] = [
         icon: `/git/logo.svg`,
         title: 'git',
         badge: {
-          text: 'MySQL',
+          text: 'git',
           type: 'tip',
         },
-        desc: 'MySQL 是开源关系型数据库，性能高，支持SQL查询，广泛用于应用开发和数据管理。',
+        desc: 'Git 是一个免费的开源分布式版本控制系统，旨在以快速和高效的方式处理从小型到超大型项目的所有内容。',
         link: 'https://git.weiweixu.cn/'
       },
     ]
