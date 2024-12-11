@@ -112,6 +112,21 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: '版本控制',
+    items: [
+      {
+        icon: `/git/logo.svg`,
+        title: 'git',
+        badge: {
+          text: 'MySQL',
+          type: 'tip',
+        },
+        desc: 'MySQL 是开源关系型数据库，性能高，支持SQL查询，广泛用于应用开发和数据管理。',
+        link: 'https://git.weiweixu.cn/'
+      },
+    ]
+  },
+  {
     title: '数据库',
     items: [
       {
