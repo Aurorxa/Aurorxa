@@ -121,7 +121,7 @@ export const NAV_DATA: NavData[] = [
           text: 'git',
           type: 'tip',
         },
-        desc: 'Git 是一个免费的开源分布式版本控制系统，旨在以快速和高效的方式处理从小型到超大型项目的所有内容。',
+        desc: 'Git 是一个分布式版本控制系统，用于高效管理代码版本、支持多人协作开发，并能够在本地独立操作和跟踪文件变化。',
         link: 'https://git.weiweixu.cn/'
       },
     ]
