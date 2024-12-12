@@ -266,7 +266,7 @@ export const NAV_DATA: NavData[] = [
           text: 'Beats',
           type: 'tip',
         },
-        desc: '轻量级数据采集工具，用于从各类设备收集数据并发送到 Logstash 或 Elasticsearch。',
+        desc: '轻量级数据采集工具，用于从各类设备收集数据并发送到 Logstash 或 Elasticsearch 。',
         link: 'https://beats.weiweixu.cn/'
       }
     ]
