@@ -1,5 +1,5 @@
 {
-  "name": "tag",
+  "name": "aurorxa",
   "version": "1.5.0",
   "description": "",
   "main": "index.js",
@@ -27,8 +27,5 @@
     "vitepress-markdown-timeline": "^1.2.1",
     "vue-router": "^4.5.0",
     "xgplayer": "^3.0.20"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.28.1"
   }
 }
