@@ -18,7 +18,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       copyright: `Copyright © ${dayjs().format("YYYY")} 许大仙`
     },
     outline: { // 大纲显示 1-6 级标题
-      level: [1, 6],
+      level: [1, 2],
       label: '目录'
     },
     //大纲顶部标题
