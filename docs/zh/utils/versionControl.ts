@@ -1,6 +1,6 @@
 import { NavData } from '../../.vitepress/theme/utils/navType'
 
-export const computerBasics: NavData[] = [
+export const versionControl: NavData[] = [
   {
     title: '版本控制',
     items: [

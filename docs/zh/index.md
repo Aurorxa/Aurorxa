@@ -8,7 +8,7 @@ next: false
 <style src="../../docs/.vitepress/theme/style/nav.scss"></style>
 
 <script setup>
-import { NAV_DATA } from '../zh/utils/data.ts'
+import { NAV_DATA } from '../zh/utils/'
 </script>
 
 
