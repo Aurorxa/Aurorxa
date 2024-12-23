@@ -43,6 +43,7 @@ onUnmounted(() => {
   justify-content: center;
   align-items: center;
 }
+
 @media (min-width: 960px) {
   .la-widget {
     position: absolute;
@@ -51,7 +52,7 @@ onUnmounted(() => {
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 959px) {
   .la-widget {
     position: absolute;
     top: 50px;
