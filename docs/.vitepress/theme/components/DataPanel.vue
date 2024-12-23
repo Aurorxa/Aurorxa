@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { onMounted, ref, onUnmounted } from "vue";
 const widgetContainer = ref<HTMLElement | null>(null);
+const footerContainer = document.querySelector(
+  ".VPFooter .container"
+) as HTMLElement | null;
 onMounted(() => {
   // 检查是否已有加载的 script，避免重复加载
   if (!document.getElementById("LA-DATA-WIDGET")) {
@@ -14,8 +17,10 @@ onMounted(() => {
     // 插入脚本到组件的容器
     if (widgetContainer.value) {
       widgetContainer.value?.appendChild(script);
-    } else {
-      document.body.appendChild(script);
+      if (footerContainer != null) {
+        footerContainer.insertBefore(widgetContainer.value, footerContainer.firstChild);
+        widgetContainer.value = null;
+      }
     }
   }
 });
