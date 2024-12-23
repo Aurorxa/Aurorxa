@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline"
+import { La51Plugin } from 'vitepress-plugin-51la'
 
 import { loadEnv } from 'vite'
 const mode = process.env.NODE_ENV || 'development'
@@ -50,7 +51,13 @@ export const sharedConfig = defineConfig({
     build: {
       chunkSizeWarningLimit: 1600
     },
-    plugins: [],
+    plugins: [
+      La51Plugin({
+        id: '3Ki1BsybBJG95owJ',
+        ck: '3Ki1BsybBJG95owJ',
+        apply: 'all'
+      })
+    ],
     server: {
       port: 18089
     },
