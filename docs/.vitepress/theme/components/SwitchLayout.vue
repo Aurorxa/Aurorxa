@@ -3,7 +3,7 @@
     <template #doc-after>
       <Backtotop />
     </template>
-    <template #layout-bottom>
+    <template #doc-footer-before>
       <DataPanel />
     </template>
   </DefaultTheme.Layout>
