@@ -23,7 +23,7 @@ onMounted(() => {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 15%;
+    top: 195%;
   }
 }
 
