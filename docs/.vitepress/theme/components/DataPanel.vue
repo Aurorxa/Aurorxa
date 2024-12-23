@@ -54,9 +54,8 @@ onUnmounted(() => {
 @media (max-width: 960px) {
   .la-widget {
     position: absolute;
-    bottom: 50px;
+    top: 50px;
     transform: translateY(-50%);
   }
 }
-
 </style>
