@@ -48,8 +48,7 @@ onUnmounted(() => {
   .la-widget {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
-    top: 195%;
+    transform: translateY(-100%);
   }
 }
 
