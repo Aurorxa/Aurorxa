@@ -18,8 +18,7 @@ onMounted(() => {
     if (widgetContainer.value) {
       widgetContainer.value?.appendChild(script);
       if (footerContainer != null) {
-        footerContainer.insertBefore(widgetContainer.value, footerContainer.firstChild);
-        widgetContainer.value = null;
+        footerContainer.prepend(widgetContainer.value);
       }
     }
   }
@@ -37,7 +36,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div id="la-widget-container" ref="widgetContainer">xxx</div>
+  <div id="la-widget-container" ref="widgetContainer"></div>
 </template>
 
 <style>
