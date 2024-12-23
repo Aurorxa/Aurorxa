@@ -43,9 +43,20 @@ onUnmounted(() => {
   justify-content: center;
   align-items: center;
 }
-.la-widget {
-  position: absolute;
-  bottom: 50px;
-  transform: translateY(-50%);
+@media (min-width: 960px) {
+  .la-widget {
+    position: absolute;
+    bottom: 50px;
+    transform: translateY(-50%);
+  }
 }
+
+@media (max-width: 960px) {
+  .la-widget {
+    position: absolute;
+    bottom: 50px;
+    transform: translateY(-50%);
+  }
+}
+
 </style>
