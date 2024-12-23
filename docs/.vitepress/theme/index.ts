@@ -4,6 +4,7 @@ import { h } from 'vue'
 import Confetti from "./components/Confetti.vue"
 import SwitchLayout from './components/SwitchLayout.vue'
 import "vitepress-markdown-timeline/dist/theme/index.css"
+import DataPanel from './components/DataPanel.vue'
 import './style/index.css'
 import 'nprogress-v2/dist/index.css'
 import { inBrowser } from 'vitepress'
@@ -16,6 +17,7 @@ export default {
     // 注册全局组件
     app.component('NavLinks', NavLinks)
     app.component('confetti', Confetti)
+    app.component('DataPanel', DataPanel)
     if (inBrowser) {
       NProgress.configure({ showSpinner: false })
       // 手动定义 onBeforeRouteChange

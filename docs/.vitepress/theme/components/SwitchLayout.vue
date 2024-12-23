@@ -3,11 +3,15 @@
     <template #doc-after>
       <Backtotop />
     </template>
+    <template #home-features-after>
+      <DataPanel />
+    </template>
   </DefaultTheme.Layout>
 </template>
 
 <script setup lang="ts">
 import Backtotop from "./BackTop.vue";
+import DataPanel from "./DataPanel.vue";
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { nextTick, provide, computed } from "vue";
