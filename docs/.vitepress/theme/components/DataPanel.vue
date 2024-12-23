@@ -42,9 +42,9 @@ onUnmounted(() => {
 <style>
 /* 添加容器样式 */
 #la-widget-container {
-  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 </style>
