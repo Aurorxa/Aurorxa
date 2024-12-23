@@ -2,6 +2,8 @@
   <DefaultTheme.Layout :class="layoutClass">
     <template #doc-after>
       <Backtotop />
+    </template>
+    <template #doc-bottom>
       <DataPanel />
     </template>
   </DefaultTheme.Layout>

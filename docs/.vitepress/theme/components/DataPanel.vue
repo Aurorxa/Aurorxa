@@ -32,7 +32,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div id="la-widget-container" ref="widgetContainer">xxx</div>
+  <div id="la-widget-container" ref="widgetContainer"></div>
 </template>
 
 <style>
