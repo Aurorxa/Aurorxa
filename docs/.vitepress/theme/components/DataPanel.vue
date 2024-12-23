@@ -10,6 +10,9 @@ onMounted(() => {
     script.charset = "UTF-8";
     script.src = "https://v6-widget.51.la/v6/3Ki1BsybBJG95owJ/quote.js?theme=0&f=12";
     document.body.appendChild(script);
+
+    // 将 script 插入到 #app 内部
+    document.querySelector('#app')?.appendChild(script);
   }
 });
 </script>
