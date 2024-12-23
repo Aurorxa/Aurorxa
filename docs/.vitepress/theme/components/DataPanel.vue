@@ -44,15 +44,13 @@ onUnmounted(() => {
   align-items: center;
 }
 
-@media (min-width: 960px) {
-  .la-widget {
-    position: absolute;
-    bottom: 50px;
-    transform: translateY(-50%);
-  }
+.la-widget {
+  position: absolute;
+  bottom: 50px;
+  transform: translateY(-50%);
 }
 
-@media (max-width: 959px) {
+@media (max-width: 960px) {
   .la-widget {
     position: absolute;
     top: 50px;
