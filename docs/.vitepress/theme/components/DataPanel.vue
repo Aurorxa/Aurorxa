@@ -43,19 +43,9 @@ onUnmounted(() => {
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 1024px) {
-  /* 针对桌面设备 */
-  .la-widget {
-    position: absolute;
-    left: 50%;
-    transform: translateY(-100%);
-  }
-}
-
-@media (max-width: 1023px) {
-  /* 针对平板和手机设备 */
-  .la-widget {
-    display: none;
-  }
+.la-widget {
+  position: absolute;
+  bottom: 50px;
+  transform: translateY(-50%);
 }
 </style>
