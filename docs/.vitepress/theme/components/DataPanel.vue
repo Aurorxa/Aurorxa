@@ -37,24 +37,10 @@ onUnmounted(() => {
 
 <style>
 /* 添加容器样式 */
-/* #la-widget-container {
+#la-widget-container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-} */
-
-/* .la-widget {
-  position: absolute;
-  bottom: 50px;
-  transform: translateY(-50%);
-} */
-
-/* @media (max-width: 960px) {
-  .la-widget {
-    position: absolute;
-    top: 50px;
-    transform: translateY(-50%);
-  }
-} */
+}
 </style>
