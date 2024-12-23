@@ -32,13 +32,13 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div id="la-widget-container" ref="widgetContainer"></div>
+  <div id="la-widget-container" ref="widgetContainer">xxx</div>
 </template>
 
 <style>
 /* 添加容器样式 */
 #la-widget-container {
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
