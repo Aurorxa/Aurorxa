@@ -29,8 +29,11 @@ export const sharedConfig = defineConfig({
     // 网页视口
     ['meta', { name: "viewport", content: "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,shrink-to-fit=no" }],
     // 关键词和描述
-    ['meta', { name: "keywords", content: "许大仙" }],
+    ['meta', { name: "keywords", content: "许大仙、Java、java、C、c、c++、大数据、前端、云原生" }],
   ],
+  sitemap: {
+    hostname: `https://www.weiweixu.cn${VITE_BASE_URL}`
+  },
   appearance: true, // 主题模式，默认浅色且开启切换
   base: VITE_BASE_URL,
   // transformHtml: (code) => {
