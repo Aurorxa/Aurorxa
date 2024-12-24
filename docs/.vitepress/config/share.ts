@@ -33,7 +33,15 @@ export const sharedConfig = defineConfig({
   ],
   sitemap: {
     hostname: `https://www.weiweixu.cn${VITE_BASE_URL}`,
-    lastmodDateOnly: true
+    lastmodDateOnly: true,
+    transformItems: (items) => {
+      items.push({
+        url: `${VITE_BASE_URL}`,
+        changefreq: 'daily',
+        priority: 0.8
+      })
+      return items;
+    }
   },
   appearance: true, // 主题模式，默认浅色且开启切换
   base: VITE_BASE_URL,
