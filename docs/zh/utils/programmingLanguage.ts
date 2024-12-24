@@ -84,6 +84,16 @@ export const programmingLanguage: NavData[] = [
         desc: 'Rust 是一门注重安全性和性能的系统编程语言，通过独特的所有权机制实现内存安全，适用于高性能和并发应用开发。',
         link: 'https://rust.weiweixu.cn/'
       },
+      {
+        icon: '/PL/emb/logo.svg',
+        title: '嵌入式',
+        badge: {
+          text: '嵌入式',
+          type: 'tip',
+        },
+        desc: 'Rust 是一门注重安全性和性能的系统编程语言，通过独特的所有权机制实现内存安全，适用于高性能和并发应用开发。',
+        link: 'https://emb.weiweixu.cn/'
+      },
     ]
   },
 ]
