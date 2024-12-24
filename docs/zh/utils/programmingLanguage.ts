@@ -86,12 +86,12 @@ export const programmingLanguage: NavData[] = [
       },
       {
         icon: '/PL/emb/logo.svg',
-        title: '嵌入式',
+        title: '嵌入式开发',
         badge: {
-          text: '嵌入式',
+          text: '嵌入式开发',
           type: 'tip',
         },
-        desc: 'Rust 是一门注重安全性和性能的系统编程语言，通过独特的所有权机制实现内存安全，适用于高性能和并发应用开发。',
+        desc: '嵌入式开发涉及硬件接口设计、底层驱动编写、实时操作系统（RTOS）开发以及应用逻辑实现，广泛应用于消费电子、工业控制、汽车电子和物联网等领域。',
         link: 'https://emb.weiweixu.cn/'
       },
     ]
