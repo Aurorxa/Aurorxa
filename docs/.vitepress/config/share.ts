@@ -32,7 +32,8 @@ export const sharedConfig = defineConfig({
     ['meta', { name: "keywords", content: "许大仙、Java、C、C++、大数据、前端、云原生、Go、Python" }],
   ],
   sitemap: {
-    hostname: `https://www.weiweixu.cn${VITE_BASE_URL}`
+    hostname: `https://www.weiweixu.cn${VITE_BASE_URL}`,
+    lastmodDateOnly: true
   },
   appearance: true, // 主题模式，默认浅色且开启切换
   base: VITE_BASE_URL,
