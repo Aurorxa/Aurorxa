@@ -153,36 +153,7 @@ const formatBadge = computed(() => {
     max-height: 3.6em;
     font-size: 12px;
     color: var(--vp-c-text-2);
-    position: relative; /* 为 tooltip 定位提供参考 */
-    transition: all 0.3s ease;
     cursor: pointer;
-
-    &:hover {
-      /* line-clamp: unset; 
-      -webkit-line-clamp: unset; 
-      overflow: visible; 
-      white-space: normal; 
-      max-height: none; 
-      line-height: 1.8em;
-      max-height: 1000em;
-      padding-bottom: 5px; */
-      content: attr(data-tooltip); /* 从 data-tooltip 属性获取内容 */
-      position: absolute;
-      top: 100%; /* 在元素下方显示 */
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(0, 0, 0, 0.8); /* 黑色背景 */
-      color: #fff; /* 白色文字 */
-      padding: 8px 12px;
-      border-radius: 4px; /* 圆角 */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 阴影效果 */
-      white-space: normal; /* 允许多行换行 */
-      z-index: 1000;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.3s ease, visibility 0.3s ease; /* 平滑过渡 */
-      max-width: 300px; /* 限制最大宽度 */
-    }
   }
 }
 
