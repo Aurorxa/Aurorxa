@@ -153,7 +153,7 @@ const formatBadge = computed(() => {
     max-height: 3.6em;
     font-size: 12px;
     color: var(--vp-c-text-2);
-    transition: max-height 0.3s ease, padding 0.3s ease;
+    transition: all 0.3s ease;
     cursor: pointer;
 
     &:hover {
@@ -163,6 +163,8 @@ const formatBadge = computed(() => {
       white-space: normal; /* 多行显示 */
       max-height: none; /* 取消高度限制 */
       line-height: 1.8em;
+      max-height: 1000em;
+      padding-bottom: 5px;
     }
   }
 }
