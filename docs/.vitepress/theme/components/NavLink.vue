@@ -153,6 +153,7 @@ const formatBadge = computed(() => {
     max-height: 3.6em;
     font-size: 12px;
     color: var(--vp-c-text-2);
+    position: relative; /* 为 tooltip 定位提供参考 */
     transition: all 0.3s ease;
     cursor: pointer;
 
