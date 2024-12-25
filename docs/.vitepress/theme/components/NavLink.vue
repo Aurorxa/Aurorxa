@@ -154,6 +154,14 @@ const formatBadge = computed(() => {
     font-size: 12px;
     color: var(--vp-c-text-2);
     cursor: pointer;
+    transition: max-height 0.3s ease; /* 平滑过渡 */
+
+    &::hover {
+      -webkit-line-clamp: unset; /* 移除两行限制 */
+      line-clamp: unset; /* 兼容性 */
+      max-height: none; /* 高度自动适应内容 */
+      overflow: visible; /* 显示完整内容 */
+    }
   }
 }
 
