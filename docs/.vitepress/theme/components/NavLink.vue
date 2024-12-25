@@ -83,14 +83,19 @@ const formatBadge = computed(() => {
     text-decoration: initial;
     background-color: var(--vp-c-bg); //悬停背景色
 
-    .desc {
+    -webkit-line-clamp: unset; /* 移除两行限制 */
+    line-clamp: unset; /* 兼容性 */
+    max-height: none; /* 高度自动适应内容 */
+    overflow: visible; /* 显示完整内容 */
+
+    /* .desc {
       &:hover {
-        -webkit-line-clamp: unset; /* 移除两行限制 */
-        line-clamp: unset; /* 兼容性 */
-        max-height: none; /* 高度自动适应内容 */
-        overflow: visible; /* 显示完整内容 */
+        -webkit-line-clamp: unset;
+        line-clamp: unset; 
+        max-height: none; 
+        overflow: visible; 
       }
-    }
+    } */
   }
 
   .box {
