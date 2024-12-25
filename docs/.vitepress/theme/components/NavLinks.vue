@@ -48,16 +48,18 @@ const formatTitle = computed(() => {
   }
 }
 
-/* @media (min-width: 960px) {
+@media (min-width: 960px) {
   .m-nav-links {
-    --m-nav-gap: 20px;
-    display: flex;
+    /* --m-nav-gap: 20px; */
   }
-} */
+}
 
 @media (max-width: 960px) {
   .m-nav-links {
-    display: flex;
+    /* --m-nav-gap: 20px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 每行 2 列 */
+    gap: 8px; /* 设置元素之间的间距 */
   }
 }
 </style>

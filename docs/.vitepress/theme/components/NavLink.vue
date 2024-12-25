@@ -163,10 +163,8 @@ const formatBadge = computed(() => {
     --m-nav-icon-size: 20px;
     --m-nav-box-gap: 8px;
 
-    width: 48vw;
-
     .title {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 }
