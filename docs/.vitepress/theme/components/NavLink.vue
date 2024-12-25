@@ -163,8 +163,7 @@ const formatBadge = computed(() => {
     --m-nav-icon-size: 20px;
     --m-nav-box-gap: 8px;
 
-    width: calc((360 / 2 / 360) * 100vw);
-    display: flex;
+    width: 50vw;
 
     .title {
       font-size: 14px;
