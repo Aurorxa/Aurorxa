@@ -48,9 +48,15 @@ const formatTitle = computed(() => {
   }
 }
 
-@media (min-width: 960px) {
+/* @media (min-width: 960px) {
   .m-nav-links {
     --m-nav-gap: 20px;
+    display: flex;
+  }
+} */
+
+@media (max-width: 960px) {
+  .m-nav-links {
     display: flex;
   }
 }
