@@ -156,7 +156,7 @@ const formatBadge = computed(() => {
     cursor: pointer;
     transition: max-height 0.3s ease; /* 平滑过渡 */
 
-    &::hover {
+    &:hover {
       -webkit-line-clamp: unset; /* 移除两行限制 */
       line-clamp: unset; /* 兼容性 */
       max-height: none; /* 高度自动适应内容 */
