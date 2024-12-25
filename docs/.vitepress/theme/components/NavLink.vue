@@ -161,7 +161,7 @@ const formatBadge = computed(() => {
     font-size: 12px;
     color: var(--vp-c-text-2);
     cursor: pointer;
-    transition: max-height 0.6s ease; /* 平滑过渡 */
+    transition: all 0.6s ease; /* 平滑过渡 */
   }
 }
 
