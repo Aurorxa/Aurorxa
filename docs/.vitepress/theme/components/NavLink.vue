@@ -152,7 +152,7 @@ const formatBadge = computed(() => {
     line-height: 1.5;
     font-size: 12px;
     color: var(--vp-c-text-2);
-    transition: all 1.5s ease;
+    transition: all 3s ease;
     cursor: pointer;
 
     &:hover {
@@ -161,6 +161,7 @@ const formatBadge = computed(() => {
       overflow: visible; /* 允许显示超出内容 */
       white-space: normal; /* 多行显示 */
       max-height: none; /* 取消高度限制 */
+      line-height: 1.5;
     }
   }
 }
