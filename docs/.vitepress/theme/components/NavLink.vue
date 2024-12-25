@@ -82,14 +82,6 @@ const formatBadge = computed(() => {
     border-color: var(--vp-c-brand); //悬停边框色
     text-decoration: initial;
     background-color: var(--vp-c-bg); //悬停背景色
-
-    .desc {
-      max-height: 10em;
-      -webkit-line-clamp: unset;
-      line-clamp: unset;
-      max-height: none;
-      overflow: visible;
-    }
   }
 
   .box {
