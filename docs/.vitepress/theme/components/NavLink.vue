@@ -82,6 +82,15 @@ const formatBadge = computed(() => {
     border-color: var(--vp-c-brand); //悬停边框色
     text-decoration: initial;
     background-color: var(--vp-c-bg); //悬停背景色
+
+    .desc {
+      &:hover {
+        -webkit-line-clamp: unset; /* 移除两行限制 */
+        line-clamp: unset; /* 兼容性 */
+        max-height: none; /* 高度自动适应内容 */
+        overflow: visible; /* 显示完整内容 */
+      }
+    }
   }
 
   .box {
@@ -155,13 +164,6 @@ const formatBadge = computed(() => {
     color: var(--vp-c-text-2);
     cursor: pointer;
     transition: max-height 0.3s ease; /* 平滑过渡 */
-
-    &:hover {
-      -webkit-line-clamp: unset; /* 移除两行限制 */
-      line-clamp: unset; /* 兼容性 */
-      max-height: none; /* 高度自动适应内容 */
-      overflow: visible; /* 显示完整内容 */
-    }
   }
 }
 
