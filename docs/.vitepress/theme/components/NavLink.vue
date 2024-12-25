@@ -159,7 +159,7 @@ const formatBadge = computed(() => {
 
 @media (max-width: 960px) {
   .m-nav-link {
-    --m-nav-icon-box-size: 36px;
+    --m-nav-icon-box-size: calc(36 / 36 / 2) vw;
     --m-nav-icon-size: 20px;
     --m-nav-box-gap: 8px;
 
