@@ -17,6 +17,13 @@
       tag: '计组6件套',
       desc: 'C 语言、计算机组成原理、数据结构和算法、操作系统、计算机网络、设计模式。'
     },
+    {
+      name: '开源项目',
+      link: 'https://open.weiweixu.cn/',
+      icon: { light: 'skill-icons:arch-light', dark: 'skill-icons:arch-dark' },
+      tag: '开源项目',
+      desc: '开源项目对技术发展和创新起到了非常重要的推动作用，很多知名软件，如：Linux、Apache、Mozilla Firefox等都是开源项目，广泛应用于各行各业。'
+    },
   ]"
 />
 
