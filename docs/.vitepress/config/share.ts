@@ -45,20 +45,6 @@ export const sharedConfig = defineConfig({
   },
   appearance: true, // 主题模式，默认浅色且开启切换
   base: VITE_BASE_URL,
-  // transformHtml: (code) => {
-  //   // 匹配所有 href 链接，并检查其中是否有 target="_blank"
-  //   return code.replace(/href="([^"]*)"(.*?)>/g, (match, href, rest) => {
-  //     // 如果链接包含 target="_blank" 并且以 base 开头
-  //     if (rest.includes('target="_blank"') && href.startsWith(VITE_BASE_URL)) {
-  //       // 去掉 href 中的 base 前缀
-  //       const newHref = href.replace(VITE_BASE_URL, '/') // 保留一个 '/'
-  //       return `href="${newHref}"${rest}>`
-  //     }
-  //     // 否则返回原链接
-  //     return match
-  //   })
-  // },
-  // lastUpdated: true, // 上次更新
   vite: {
     build: {
       chunkSizeWarningLimit: 1600
@@ -70,6 +56,21 @@ export const sharedConfig = defineConfig({
         apply: 'all'
       })
     ],
+    ssr: {
+      noExternal: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@nolebase/ui',
+        '@nolebase/vitepress-plugin-highlight-targeted-heading',
+        '@nolebase/vitepress-plugin-inline-link-preview'
+      ],
+    },
+    optimizeDeps: {
+      exclude: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        'vitepress',
+        '@nolebase/vitepress-plugin-inline-link-preview/client',
+      ],
+    },
     server: {
       port: 18089
     },

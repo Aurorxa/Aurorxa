@@ -6,6 +6,15 @@
     <template #layout-bottom>
       <DataPanel />
     </template>
+    <template #doc-top>
+      <NolebaseHighlightTargetedHeading />
+    </template>
+     <template #nav-bar-content-after>
+      <NolebaseEnhancedReadabilitiesMenu />
+    </template>
+     <template #nav-screen-content-after>
+      <NolebaseEnhancedReadabilitiesScreenMenu />
+    </template>
     <template #layout-top>
       <MouseFollower />
       <MouseClick />
@@ -29,7 +38,15 @@ import Confetti from "./Confetti.vue";
 import HomeUnderline from "./HomeUnderline.vue";
 // 获取 frontmatter 数据
 const { frontmatter, isDark } = useData();
+import "@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css";
+import { NolebaseHighlightTargetedHeading } from "@nolebase/vitepress-plugin-highlight-targeted-heading/client";
 
+import {
+  NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesScreenMenu,
+} from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
+
+import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
 
 // 启用动画切换的逻辑
 const enableTransitions = () =>
