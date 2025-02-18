@@ -22,7 +22,7 @@
   "dependencies": {
     "@theojs/lumen": "^5.4.0",
     "animejs": "^3.2.2",
-    "dayjs": "1.11.13",
+    "dayjs": "^2.0.0-alpha.4",
     "dotenv": "^16.4.7",
     "medium-zoom": "^1.1.0",
     "nprogress-v2": "^1.1.8",
