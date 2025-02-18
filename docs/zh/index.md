@@ -130,28 +130,28 @@
     {
       name: 'ZeroMQ',
       link: 'https://zeromq.weiweixu.cn/',
-      icon: { light: 'mdi:mq', dark: 'mdi:mq' },
+      image: 'https://www.weiweixu.cn/logo/ZeroMQ.svg',
       tag: 'ZeroMQ',
       desc: '高性能消息库，提供多种通信模式，适用于需要高吞吐量和低延迟的场景。'
     },
     {
       name: 'RocketMQ',
       link: 'https://rocketmq.weiweixu.cn/',
-      icon: { light: 'simple-icons:apacherocketmq', dark: 'simple-icons:apacherocketmq' },
+      image: 'https://www.weiweixu.cn/logo/RocketMQ.svg',
       tag: 'RocketMQ',
       desc: '阿里巴巴开源的分布式消息中间件，支持高可靠性和高可用性，适用于金融、电商等领域。'
     },
     {
       name: 'Pulsar',
       link: 'https://pulsar.weiweixu.cn/',
-      icon: { light: 'simple-icons:apachepulsar', dark: 'simple-icons:apachepulsar' },
+      image: 'https://www.weiweixu.cn/logo/Pulsar.svg',
       tag: 'Pulsar',
       desc: 'Apache 基金会的分布式消息系统，支持多租户和持久化存储，适用于云原生应用。'
     },
     {
       name: 'NSQ',
       link: 'https://msq.weiweixu.cn/',
-      icon: { light: 'simple-icons:hivemq', dark: 'simple-icons:hivemq' },
+      image: 'https://www.weiweixu.cn/logo/NSQ.png',
       tag: 'NSQ',
       desc: '实时分布式消息平台，设计简单，易于部署和运维，适用于实时消息处理。'
     },
