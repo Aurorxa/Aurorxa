@@ -1,10 +1,18 @@
 <template>
-  <DefaultTheme.Layout :class="layoutClass">
+  <DefaultTheme.Layout>
     <template #doc-after>
       <Backtotop />
     </template>
     <template #layout-bottom>
       <DataPanel />
+    </template>
+    <template #layout-top>
+      <MouseFollower />
+      <MouseClick />
+    </template>
+    <template #home-features-after>
+      <Confetti />
+      <HomeUnderline />
     </template>
   </DefaultTheme.Layout>
 </template>
@@ -15,12 +23,13 @@ import DataPanel from "./DataPanel.vue";
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { nextTick, provide, computed } from "vue";
-
+import MouseClick from "./MouseClick.vue";
+import MouseFollower from "./MouseFollower.vue";
+import Confetti from "./Confetti.vue";
+import HomeUnderline from "./HomeUnderline.vue";
 // 获取 frontmatter 数据
 const { frontmatter, isDark } = useData();
 
-// 动态计算 layout class
-const layoutClass = computed(() => frontmatter.value?.layoutClass || "");
 
 // 启用动画切换的逻辑
 const enableTransitions = () =>

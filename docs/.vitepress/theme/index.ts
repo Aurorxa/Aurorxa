@@ -8,16 +8,19 @@ import DataPanel from './components/DataPanel.vue'
 import './style/index.css'
 import 'nprogress-v2/dist/index.css'
 import { inBrowser } from 'vitepress'
-import NavLinks from './components/NavLinks.vue'
 import { NProgress } from 'nprogress-v2/dist/index.js'
+import { DocBox, DocBoxCube, DocLinks, DocPill } from '@theojs/lumen'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app, router }) {
     // 注册全局组件
-    app.component('NavLinks', NavLinks)
     app.component('confetti', Confetti)
     app.component('DataPanel', DataPanel)
+    app.component('Box', DocBox)
+    app.component('Pill', DocPill)
+    app.component('Links', DocLinks)
+    app.component('BoxCube', DocBoxCube)
     if (inBrowser) {
       NProgress.configure({ showSpinner: false })
       // 手动定义 onBeforeRouteChange

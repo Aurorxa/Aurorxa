@@ -23,7 +23,16 @@ body, html {
     -ms-touch-action: manipulation;
 }
 
-
 .vp-doc a {
     text-decoration: none;
+}
+
+
+.VPContent .content-container {
+  max-width: 100% !important;
+}
+
+.container .link {
+  width : 8.5em !important;
+  height: 8.5em !important;
 }
