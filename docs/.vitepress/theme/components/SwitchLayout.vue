@@ -16,7 +16,7 @@
       <NolebaseEnhancedReadabilitiesScreenMenu />
     </template>
     <template #layout-top>
-      <MouseFollower />
+      <!-- <MouseFollower /> -->
       <MouseClick />
     </template>
     <template #home-features-after>
@@ -33,7 +33,7 @@ import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { nextTick, provide, computed } from "vue";
 import MouseClick from "./MouseClick.vue";
-import MouseFollower from "./MouseFollower.vue";
+// import MouseFollower from "./MouseFollower.vue";
 import Confetti from "./Confetti.vue";
 import HomeUnderline from "./HomeUnderline.vue";
 // 获取 frontmatter 数据
