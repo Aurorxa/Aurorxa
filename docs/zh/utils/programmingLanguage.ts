@@ -32,7 +32,7 @@ export const programmingLanguage: NavData[] = [
           type: 'tip',
         },
         desc: '处理和分析海量、多样、高速增长的数据集，以提取有价值的信息，常用于决策支持和预测分析。',
-        link: 'https://big-data.weiweixu.cn/'
+        link: 'https://bd.weiweixu.cn/'
       },
       {
         icon: '/PL/web-design/logo.svg',
@@ -42,7 +42,7 @@ export const programmingLanguage: NavData[] = [
           type: 'tip',
         },
         desc: '构建网页或应用用户界面，涉及 HTML 、CSS 和 JavaScript 等技术，重点在于设计和优化用户体验。',
-        link: 'https://web-design.weiweixu.cn/'
+        link: 'https://web.weiweixu.cn/'
       },
       {
         icon: '/PL/linux/logo.svg',
