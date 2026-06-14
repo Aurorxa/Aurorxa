@@ -8,7 +8,5 @@ import { elasticStack } from './elasticStack'
 export const NAV_DATA: NavData[] = [
   ...computerBasic,
   ...programmingLanguage,
-  ...database,
-  ...middleware,
   ...elasticStack,
 ]
