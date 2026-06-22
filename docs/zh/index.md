@@ -92,6 +92,13 @@
       icon: { light: 'skill-icons:raspberrypi-light', dark: 'skill-icons:raspberrypi-dark' },
       tag: '嵌入式开发',
       desc: '嵌入式开发涵盖硬件接口设计、驱动编写、RTOS 开发和应用实现，广泛用于消费电子、工业控制、汽车电子等领域。'
+    },
+    {
+      name: '测试',
+      link: 'https://test.weiweixu.cn/',
+      icon: { light: 'devicon:vitest', dark: 'devicon:vitest' },
+      tag: '测试',
+      desc: '产品交付前的最后一道防线。负责制定测试方案、执行多维度的质量验证、推动问题闭环，并持续探索测试效能提升方案，确保业务高质量敏捷迭代。'
     }
   ]"
 />

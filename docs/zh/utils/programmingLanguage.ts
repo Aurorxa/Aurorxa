@@ -94,6 +94,16 @@ export const programmingLanguage: NavData[] = [
         desc: '嵌入式开发涵盖硬件接口设计、驱动编写、RTOS 开发和应用实现，广泛用于消费电子、工业控制、汽车电子等领域。',
         link: 'https://emb.weiweixu.cn/'
       },
+      {
+        icon: '/PL/sbc/logo.svg',
+        title: '测试',
+        badge: {
+          text: '测试',
+          type: 'tip',
+        },
+        desc: '嵌入式开发涵盖硬件接口设计、驱动编写、RTOS 开发和应用实现，广泛用于消费电子、工业控制、汽车电子等领域。',
+        link: 'https://test.weiweixu.cn/'
+      },
     ]
   },
 ]
