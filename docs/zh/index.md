@@ -95,7 +95,7 @@
     },
     {
       name: '测试',
-      link: 'https://test.weiweixu.cn/',
+      link: 'https://qa.weiweixu.cn/',
       icon: { light: 'devicon:vitest', dark: 'devicon:vitest' },
       tag: '测试',
       desc: '产品交付前的最后一道防线。负责制定测试方案、执行多维度的质量验证、推动问题闭环，并持续探索测试效能提升方案，确保业务高质量敏捷迭代。'
