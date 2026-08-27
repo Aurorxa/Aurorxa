@@ -3,7 +3,7 @@
 
 ## 技术栈
 
-### 编程语言与前端
+### 编程语言
 
 [![编程语言与前端](https://skillicons.dev/icons?i=c,cpp,go,java,kotlin,javascript,html,css,less,bootstrap,jquery,vue,react,pinia,redux,flutter)](https://skillicons.dev)
 
