@@ -1,7 +1,31 @@
-@import './var.css';
-@import './vp-code.css';
-@import './vp-code-group.css';
-@import './vp-code-title.css';
-@import './blockquote-no-sfx.css';
-@import './rainbow.css';
-@import './vplink.css';
+:root {
+  --vp-c-brand-1: #0071e3;
+  --vp-c-brand-2: #0077ed;
+  --vp-c-brand-3: #006edb;
+  --vp-c-brand-soft: rgba(0, 113, 227, 0.12);
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+}
+
+.dark {
+  --vp-c-brand-1: #2997ff;
+  --vp-c-brand-2: #40a9ff;
+  --vp-c-brand-3: #66b8ff;
+  --vp-c-brand-soft: rgba(41, 151, 255, 0.14);
+}
+
+.VPNavBarTitle .title { letter-spacing: 0; }
+.VPPage { min-height: calc(100vh - var(--vp-nav-height)); }
+
+.home-navigation-page .VPContent { background: #f5f5f7; }
+.dark .home-navigation-page .VPContent { background: #101010; }
+
+.home-navigation-page .VPNavBar {
+  background: rgba(255, 255, 255, .78);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.dark .home-navigation-page .VPNavBar { background: rgba(20, 20, 20, .78); }
+
+@media (min-width: 960px) {
+  .VPNavBar .container { max-width: 1184px; }
+}

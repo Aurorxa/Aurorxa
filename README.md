@@ -1,25 +1,23 @@
-- 👋 Hey, I’m 许大仙
-- 📫 Email: 1900919313@qq.com
+<div align="center">
 
-## 技术栈
+# 许大仙
 
-### 编程语言与前端
+后端开发 · 云原生 · 开源实践
 
-[![编程语言与前端](https://skillicons.dev/icons?i=c,cpp,go,java,kotlin,javascript,html,css,less,bootstrap,jquery,vue,react,pinia,redux,flutter)](https://skillicons.dev)
+[个人知识导航](https://www.weiweixu.cn/) · [语雀](https://www.yuque.com/fairy-era) · [Email](mailto:1900919313@qq.com)
 
-### 后端与构建工具
+</div>
 
-[![后端与构建工具](https://skillicons.dev/icons?i=spring,hibernate,graphql,nodejs,maven,gradle,npm,pnpm)](https://skillicons.dev)
+---
 
-### 数据库与中间件
+### 关于我
 
-[![数据库与中间件](https://skillicons.dev/icons?i=mysql,mongodb,redis,elasticsearch,kafka,rabbitmq)](https://skillicons.dev)
+专注于构建可靠、清晰且易于维护的软件，也在持续整理自己的技术知识体系。
 
-### 云原生与运维
+- 主要方向：Java、Go、分布式系统与云原生
+- 近期关注：系统设计、开源项目与工程效率
+- 个人导航：[www.weiweixu.cn](https://www.weiweixu.cn/)
 
-[![云原生与运维](https://skillicons.dev/icons?i=aws,docker,kubernetes,nginx,jenkins,ansible,prometheus,grafana,linux,redhat,ubuntu,bash)](https://skillicons.dev)
+### 技术栈
 
-### 开发工具与平台
-
-[![开发工具与平台](https://skillicons.dev/icons?i=git,github,gitlab,bitbucket,idea,clion,vscode,eclipse,atom,sublime,vim,postman,md,rocket)](https://skillicons.dev)
-
+`Java` · `Spring` · `Go` · `C/C++` · `MySQL` · `Redis` · `Docker` · `Kubernetes` · `Linux` · `Git`
