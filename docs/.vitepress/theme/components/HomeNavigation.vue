@@ -2,7 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { Icon } from '@iconify/vue'
 
-type Category = '全部' | '基础' | '语言' | '方向'
+type Category = '全部' | '基础' | '语言' | '领域'
 
 interface NavItem {
   title: string
@@ -14,7 +14,7 @@ interface NavItem {
   accent: string
 }
 
-const categories: Category[] = ['全部', '基础', '语言', '方向']
+const categories: Category[] = ['全部', '基础', '语言', '领域']
 const activeCategory = ref<Category>('全部')
 const query = ref('')
 const currentPage = ref(0)
@@ -23,16 +23,16 @@ const pageSize = ref(6)
 const items: NavItem[] = [
   { title: '计算机科学', category: '基础', icon: 'ph:cpu-fill', description: '从二进制、指令与程序出发，建立完整的计算机科学知识框架。', tags: ['原理', '算法'], link: 'https://cs.weiweixu.cn/', accent: '#167453' },
   { title: '计组 6 件套', category: '基础', icon: 'ph:stack-fill', description: '串联 C 语言、计算机组成、数据结构、操作系统、网络与设计模式。', tags: ['体系结构', '网络'], link: 'https://coa6.weiweixu.cn/', accent: '#2563eb' },
-  { title: 'C / C++', category: '语言', icon: 'devicon:cplusplus', description: '面向系统与高性能场景，掌握语言基础、内存模型和工程实践。', tags: ['系统', '性能'], link: 'https://cpp.weiweixu.cn/', accent: '#4f65b5' },
-  { title: 'Java', category: '语言', icon: 'logos:java', description: '从语言特性到 JVM 与企业级开发，构建稳定的后端知识体系。', tags: ['JVM', '后端'], link: 'https://java.weiweixu.cn/', accent: '#d97706' },
-  { title: 'Go', category: '语言', icon: 'logos:go', description: '聚焦简洁、高效与并发，服务云计算和分布式系统开发。', tags: ['并发', '云服务'], link: 'https://go.weiweixu.cn/', accent: '#0891b2' },
-  { title: 'Python', category: '语言', icon: 'logos:python', description: '覆盖语言基础、自动化、数据处理与人工智能应用。', tags: ['自动化', 'AI'], link: 'https://python.weiweixu.cn/', accent: '#ca8a04' },
-  { title: 'Rust', category: '语言', icon: 'simple-icons:rust', description: '以所有权和类型系统为核心，探索安全可靠的系统编程。', tags: ['安全', '系统'], link: 'https://rust.weiweixu.cn/', accent: '#c2410c' },
-  { title: '前端开发', category: '方向', icon: 'logos:html-5', description: '围绕 HTML、CSS 和 JavaScript 构建现代 Web 用户体验。', tags: ['Web', '交互'], link: 'https://web.weiweixu.cn/', accent: '#e34f26' },
-  { title: '大数据', category: '方向', icon: 'logos:hadoop', description: '学习海量数据的存储、计算与分析，理解数据工程核心链路。', tags: ['Hadoop', '计算'], link: 'https://bd.weiweixu.cn/', accent: '#eab308' },
-  { title: '云原生', category: '方向', icon: 'logos:kubernetes', description: '使用容器、编排与 DevOps 方法构建可扩展的现代系统。', tags: ['Kubernetes', 'DevOps'], link: 'https://linux.weiweixu.cn/', accent: '#326ce5' },
-  { title: '嵌入式开发', category: '方向', icon: 'logos:raspberry-pi', description: '覆盖硬件接口、驱动、RTOS 与嵌入式应用开发。', tags: ['硬件', 'RTOS'], link: 'https://emb.weiweixu.cn/', accent: '#c51a4a' },
-  { title: '软件测试', category: '方向', icon: 'ph:check-circle-fill', description: '从测试策略到自动化与质量闭环，保障产品稳定交付。', tags: ['质量', '自动化'], link: 'https://qa.weiweixu.cn/', accent: '#7c3aed' },
+  { title: 'C / C++', category: '语言', icon: 'devicon:cplusplus', description: '掌握语言基础、内存模型、泛型与现代 C++ 工程实践。', tags: ['内存模型', '泛型'], link: 'https://cpp.weiweixu.cn/', accent: '#4f65b5' },
+  { title: 'Java', category: '语言', icon: 'logos:java', description: '从语言特性、面向对象到 JVM，建立完整的 Java 知识体系。', tags: ['面向对象', 'JVM'], link: 'https://java.weiweixu.cn/', accent: '#d97706' },
+  { title: 'Go', category: '语言', icon: 'logos:go', description: '学习简洁的语法、类型系统、并发模型与标准工具链。', tags: ['并发模型', '工具链'], link: 'https://go.weiweixu.cn/', accent: '#0891b2' },
+  { title: 'Python', category: '语言', icon: 'logos:python', description: '覆盖语法、数据模型、类型标注与 Python 生态工具。', tags: ['数据模型', '类型标注'], link: 'https://python.weiweixu.cn/', accent: '#ca8a04' },
+  { title: 'Rust', category: '语言', icon: 'simple-icons:rust', description: '以所有权、生命周期和类型系统为核心，理解安全编程。', tags: ['所有权', '生命周期'], link: 'https://rust.weiweixu.cn/', accent: '#c2410c' },
+  { title: '前端开发', category: '领域', icon: 'logos:html-5', description: '围绕 HTML、CSS 和 JavaScript 构建现代 Web 用户体验。', tags: ['HTML / CSS', 'JavaScript'], link: 'https://web.weiweixu.cn/', accent: '#e34f26' },
+  { title: '大数据', category: '领域', icon: 'logos:hadoop', description: '学习海量数据的存储、计算与分析，理解数据工程核心链路。', tags: ['Java', 'Hadoop'], link: 'https://bd.weiweixu.cn/', accent: '#eab308' },
+  { title: '云原生', category: '领域', icon: 'logos:kubernetes', description: '使用容器、编排与 DevOps 方法构建可扩展的现代系统。', tags: ['Linux', 'Kubernetes'], link: 'https://linux.weiweixu.cn/', accent: '#326ce5' },
+  { title: '嵌入式开发', category: '领域', icon: 'logos:raspberry-pi', description: '覆盖硬件接口、驱动、RTOS 与嵌入式应用开发。', tags: ['C / C++', 'RTOS'], link: 'https://emb.weiweixu.cn/', accent: '#c51a4a' },
+  { title: '软件测试', category: '领域', icon: 'ph:check-circle-fill', description: '从测试策略到自动化与质量闭环，保障产品稳定交付。', tags: ['测试方法', '自动化'], link: 'https://qa.weiweixu.cn/', accent: '#7c3aed' },
 ]
 
 const visibleItems = computed(() => {
