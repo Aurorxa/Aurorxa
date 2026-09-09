@@ -29,6 +29,7 @@ const items: NavItem[] = [
   { title: 'Python', category: '语言', icon: 'logos:python', description: '覆盖语法、数据模型、类型标注与 Python 生态工具。', tags: ['数据模型', '类型标注'], link: 'https://python.weiweixu.cn/', accent: '#ca8a04' },
   { title: 'Rust', category: '语言', icon: 'simple-icons:rust', description: '以所有权、生命周期和类型系统为核心，理解安全编程。', tags: ['所有权', '生命周期'], link: 'https://rust.weiweixu.cn/', accent: '#c2410c' },
   { title: '前端开发', category: '领域', icon: 'logos:html-5', description: '围绕 HTML、CSS 和 JavaScript 构建现代 Web 用户体验。', tags: ['HTML / CSS', 'JavaScript'], link: 'https://web.weiweixu.cn/', accent: '#e34f26' },
+  { title: 'UI', category: '领域', icon: 'ph:palette-fill', description: '学习界面设计、视觉规范与交互原则，打造清晰一致的数字产品体验。', tags: ['界面设计', '交互设计'], link: 'https://ui.weiweixu.cn/', accent: '#db2777' },
   { title: '大数据', category: '领域', icon: 'logos:hadoop', description: '学习海量数据的存储、计算与分析，理解数据工程核心链路。', tags: ['Java', 'Hadoop'], link: 'https://bd.weiweixu.cn/', accent: '#eab308' },
   { title: '云原生', category: '领域', icon: 'logos:kubernetes', description: '使用容器、编排与 DevOps 方法构建可扩展的现代系统。', tags: ['Linux', 'Kubernetes'], link: 'https://linux.weiweixu.cn/', accent: '#326ce5' },
   { title: '嵌入式开发', category: '领域', icon: 'logos:raspberry-pi', description: '覆盖硬件接口、驱动、RTOS 与嵌入式应用开发。', tags: ['C / C++', 'RTOS'], link: 'https://emb.weiweixu.cn/', accent: '#c51a4a' },
